@@ -23,6 +23,28 @@ header{
     color:white;
     
 }
+
+a{
+    text-decoration: none;
+}
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
 .ian{
     height: 100vh;
     display: grid;
@@ -47,24 +69,84 @@ h1{
     text-transform: uppercase;
     color:white;
 }
+h2{
+    letter-spacing: 1em;
+}
 section{
     height: 100vh;
     display: block;
-    color:white;
+    color:rgb(180, 180, 180);
     font-family: monospace;
     text-align: center;
     mix-blend-mode:exclusion;
     
 }
+article{
+    font-family: Helvetica;
+ 
+    
+}
 .justa{
-   
-    background-image:url('klas.jpg'),rgba(240, 238, 239, 0.665) ;
+ 
+    background-image:url('klas.jpg') ;
+    background-color:  rgb(24, 24, 24);;
+
     background-position: center;
-    background-blend-mode: multiply;
+    background-blend-mode:exclusion;
     background-size:100% ;
+    display: flex;
+
+    justify-content: space-between;
+    
+  
    
 }
+.left{
+    text-align: left;
+    padding: 11em;
+    width: 20%;
+}
+.right{
+    text-align: left;
+    margin-top: 15em;
 
+    padding: 11em;
+    width: 20%;
+}
+.content{
+    margin-top: 3em;
+    font-family: Roboto;
+    text-align:left;
+    margin-left: 4em;
+    width: 69% ;
+    line-height: 2em;
+    text-justify: newspaper;
+    display: block;
+
+}
+.crypt{
+ 
+    background-image: url('https://cdn.landen.co/a07npyf3mhd9/assets/4p1bsusp.gif'); background-repeat: no-repeat;
+    background-color: inherit;
+    background-blend-mode:exclusion;
+    background-size: cover;
+   
+}
+.crypt2{
+ 
+    background-image: url('https://i.pinimg.com/originals/e8/91/a7/e891a7d33294ab499d7ac767fa0a425d.gif');
+    background-repeat: no-repeat;
+    background-color: inherit;
+    background-blend-mode:exclusion;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  
+}
+.crypt2>article{
+    margin:6em;
+}
 
 .webgl
 {
