@@ -77,11 +77,12 @@ h1{
         display: none;
     }
     .zoe{
-        font-size: 1rem;
-        height: 10vh;
+        font-family: monospace;
+        font-size: 1.36rem;
+        height: 82vh;
         display: grid;
         place-items: center;
-        transition: 2s;
+        transition: 1.84s;
         position: sticky;
     }
   
